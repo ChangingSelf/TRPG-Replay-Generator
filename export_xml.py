@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-edtion = 'version 1.0.3'
+edtion = 'alpha 1.11.15'
 
 # 外部参数输入
 
@@ -177,7 +177,7 @@ class Bubble:
         pr_horiz,pr_vert = self.PRpos
         if self.path is None:
             clip_bubble = None
-            print('Render empty Bubble!')
+            # print('Render empty Bubble!')
         else:
             clip_bubble = clip_tplt.format(**{'clipid':'BB_clip_%d'%clip_index,
                                               'clipname':self.filename,
