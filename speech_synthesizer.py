@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
-edtion = 'alpha 1.12.7'
+edtion = 'version 1.0.4'
 
 # 在开源发布的版本中，隐去了各个key
 
